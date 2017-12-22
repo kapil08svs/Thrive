@@ -6,6 +6,16 @@ git_source(:github) do |repo_name|
 end
 
 
+# Use SCSS for stylesheets
+gem 'sass-rails', '~> 5.0'
+#Gem for converting string to url
+gem "rails_autolink", "~> 1.1.6"
+#for glyphicons
+gem "font-awesome-rails"
+#gem for installing packages through bower in Rails
+gem "bower-rails", "~> 0.11.0"
+#Gem for using Bootstrap in Rails
+gem 'bootstrap-sass', '~> 3.3.6'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
 # Use sqlite3 as the database for Active Record
