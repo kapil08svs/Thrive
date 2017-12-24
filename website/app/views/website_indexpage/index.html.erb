@@ -6,38 +6,34 @@
           <div class="col-sm-4 hidden-xs">
             <span class="nav-text">
               <i class="fa fa-phone" aria-hidden="true"></i>
-              +91 78922 36503
+              +91 99729 56137
+              <a href="#contact-form">
               <i class="fa fa-envelope" aria-hidden="true"></i>
               contact@revampgroup.com</span>
+            </a>
           </div>
           <div class="col-sm-4 text-center">
-            <a href="#" class="social">
-              <i class="fa fa-facebook" aria-hidden="true"></i>
-            </a>
-            <a href="#" class="social">
-              <i class="fa fa-twitter" aria-hidden="true"></i>
-            </a>
-            <a href="#" class="social">
-              <i class="fa fa-instagram" aria-hidden="true"></i>
-            </a>
-            <a href="#" class="social">
-              <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-            </a>
+              <%= link_to "",  "https://www.facebook.com/letsthriveon" , class: "social fa fa-facebook" %>
+              <%= link_to "",  "https://www.facebook.com/letsthriveon" , class: "social fa fa-twitter" %>
+              <%= link_to "",  "https://www.instagram.com/letsthriveon" , class: "social fa fa-instagram" %>
+              <%= link_to "",  "https://www.linkedin.com/comapny/13463647/" , class: "social fa fa-linkedin-square" %>
+
           </div>
           <div class="col-sm-4 text-right hidden-xs">
             <ul class="tools">
               <li class="dropdown icons_to_right_navbar">
                 <a class="" href="#about_us">
-                  <i class="fa fa-user" aria-hidden="true"></i>About Us</a>
-
-                <a class="" href="#contact_us">
-                  <i class="fa fa-user" aria-hidden="true"></i>Contact Us</a>
+                  <i class="" aria-hidden="true"></i>About Us</a>
+                <a class="" href="#contact-form">
+                  <i class="" aria-hidden="true"></i>Contact Us</a>
               </li>
             </ul>
           </div>
         </div>
       </div>
     </nav>
+  </div>
+</div>
     <!--TOP-NAVBAR-END-->
 
     <!-- Wallpapers with sliders part of the code -->
@@ -266,7 +262,7 @@
     <div class="container animated fadeIn">
 
       <div class="row">
-        <h1 class="header-title">
+        <h1 class="header-title" id="contact-form">
           Contact Us
         </h1>
         <hr>
@@ -281,7 +277,7 @@
               allowfullscreen="allowfullscreen"></iframe>
           </div>
           <div class="col-sm-6">
-            <form id="contact-form" role="form" action="http://formspree.io/contact@letsthriveon.com" method="post" accept-charset="utf-8">
+            <form role="form" action="http://formspree.io/contact@letsthriveon.com" method="post" accept-charset="utf-8">
 
               <div class="form-group">
                 <input type="text" class="form-control" id="name" name="Client's name" placeholder="Name" required="">
@@ -298,8 +294,8 @@
                 <textarea class="form-control textarea-contact" rows="5" id="comment" name="Mesage:" placeholder="Type Your Message/Feedback here..." required=""></textarea>
                 <br>
                 <button class="btn btn-default btn-send">
-                  <span class="glyphicon glyphicon-send"></span>
                   Send
+                  <span class="glyphicon glyphicon-send"></span>
                 </button>
               </div>
             </form>
@@ -386,18 +382,10 @@
             <h4 class="title">About Us</h4>
             <p>Thrive is a million dollar comapny ready to make the future millionare's.</p>
             <ul class="social-icon">
-              <a href="#" class="social">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
-              </a>
-              <a href="#" class="social">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
-              </a>
-              <a href="#" class="social">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
-              </a>
-              <a href="#" class="social">
-                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-              </a>
+              <%= link_to "",  "https://www.facebook.com/letsthriveon" , class: "social fa fa-facebook" %>
+              <%= link_to "",  "https://www.facebook.com/letsthriveon" , class: "social fa fa-twitter" %>
+              <%= link_to "",  "https://www.instagram.com/letsthriveon" , class: "social fa fa-instagram" %>
+              <%= link_to "",  "https://www.linkedin.com/comapny/13463647/" , class: "social fa fa-linkedin-square" %>
             </ul>
           </div>
         </div>

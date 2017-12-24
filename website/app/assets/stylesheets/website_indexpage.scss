@@ -173,13 +173,18 @@
     .top-bar .social{color:#FFF;display:inline-block;padding:5px;text-decoration: none;}
 
 
-    .top-bar .tools li{list-style-type: none;display:inline-block;}
+    .top-bar .tools li{
+      list-style-type: none;
+      display:inline-block;
+      padding-top: 7px;
+    }
     .top-bar .tools li a {
         // display: block;
         text-decoration: none;
         color: #fff;
         padding-left: 15px;
-        padding-top: 5px;
+
+        padding-top: 7px;
     }
 // Top navigation bar ends here
 
@@ -261,5 +266,5 @@ h3 {
 #map {
  height: 320px;
  width: 100%;
- 
+
 }
