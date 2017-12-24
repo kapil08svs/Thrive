@@ -152,8 +152,84 @@
 
 
 .footer .social-icon{padding:0px;margin:0px;}
-.footer .social-icon a{    display: inline-block;
+.footer .social-icon a{
+   display: inline-block;
     color: #fff;
     font-size: 35px;
-    padding: 10px;}
+    padding: 10px;
+  }
     // Footer styling ends here
+
+
+    // Top Navigation bar
+    .top-bar{
+      background-color:black;min-height:40px;padding-top:5px;padding-bottom: 0px;
+    }
+    .top-bar .nav-text {
+        color: #00BCD4;
+        display: block;
+        margin-top: 5px;
+    }
+    .top-bar .social{color:#FFF;display:inline-block;padding:5px;text-decoration: none;}
+
+
+    .top-bar .tools li{list-style-type: none;display:inline-block;}
+    .top-bar .tools li a {
+        // display: block;
+        text-decoration: none;
+        color: #fff;
+        padding-left: 15px;
+        padding-top: 5px;
+    }
+// Top navigation bar ends here
+
+// Parallax starts here
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.6;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("/parallax1.jpg");
+  min-height: 400px;
+}
+
+.bgimg-2 {
+  background-image: url("/parallax2.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("/parallax3.jpg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #ddd;
+}
+// Parallax ends here
