@@ -207,6 +207,7 @@
 .bgimg-2 {
   background-image: url("/parallax2.jpg");
   min-height: 400px;
+
 }
 
 .bgimg-3 {
@@ -226,7 +227,7 @@
 .caption span.border {
   background-color: #111;
   color: #fff;
-  padding: 18px;
+  padding: 2px;
   font-size: 25px;
   letter-spacing: 10px;
 }
@@ -251,6 +252,9 @@ h3 {
     text-align: left;
     text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
 }
+.background_depth{
+  background-color: #111;
+}
 
 @media screen and (min-width:768px){
     .carousel-caption h3{font-size: 52px;}
@@ -267,4 +271,9 @@ h3 {
  height: 320px;
  width: 100%;
 
+}
+@media screen and (min-width: 768px){
+.carousel-caption {
+    padding-bottom: 180px;
+}
 }
