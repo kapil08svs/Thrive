@@ -1,0 +1,308 @@
+// Stylling for the testimonials
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 60px;
+}
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+#quote-carousel .carousel-indicators {
+    position: relative;
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-top: 20px;
+    margin-right: -19px;
+}
+#quote-carousel .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all .4s ease-in;
+    vertical-align: middle;
+}
+#quote-carousel .carousel-indicators .active {
+    width: 128px;
+    height: 128px;
+    opacity: 1;
+    transition: all .2s;
+}
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+
+// Stylling for the contact us part of the website
+
+	/* Conatct start */
+
+        .header-title
+        {
+          text-align: center;
+          color:#00bfff;
+        }
+
+        #tip
+        {
+            display:none;
+        }
+
+        .fadeIn
+        {
+          animation-duration: 3s;
+        }
+
+        .form-control
+        {
+        	border-radius:0px;
+        	border:1px solid #EDEDED;
+        }
+
+        .form-control:focus
+        {
+        	border:1px solid #00bfff;
+        }
+
+        .textarea-contact
+        {
+        	resize:none;
+        }
+
+        .btn-send
+        {
+        	border-radius: 0px;
+        	border:1px solid #00bfff;
+        	background:#00bfff;
+        	color:#fff;
+        }
+
+        .btn-send:hover
+        {
+        	border:1px solid #00bfff;
+        	background:#fff;
+        	color:#00bfff;
+        	transition:background 0.5s;
+        }
+
+        .second-portion
+        {
+        	margin-top:50px;
+        }
+
+
+
+		.box > .icon { text-align: center; position: relative; }
+		.box > .icon > .image { position: relative; z-index: 2; margin: auto; width: 88px; height: 88px; border: 8px solid white; line-height: 88px; border-radius: 50%; background: #00bfff; vertical-align: middle; }
+		.box > .icon:hover > .image { background: #333; }
+		.box > .icon > .image > i { font-size: 36px !important; color: #fff !important; }
+		.box > .icon:hover > .image > i { color: white !important; }
+		.box > .icon > .info { margin-top: -24px; background: rgba(0, 0, 0, 0.04); border: 1px solid #e0e0e0; padding: 15px 0 10px 0; min-height:163px;}
+		.box > .icon:hover > .info { background: rgba(0, 0, 0, 0.04); border-color: #e0e0e0; color: white; }
+		.box > .icon > .info > h3.title { font-family: "Robot",sans-serif !important; font-size: 16px; color: #222; font-weight: 700; }
+		.box > .icon > .info > p { font-family: "Robot",sans-serif !important; font-size: 13px; color: #666; line-height: 1.5em; margin: 20px;}
+		.box > .icon:hover > .info > h3.title, .box > .icon:hover > .info > p, .box > .icon:hover > .info > .more > a { color: #222; }
+		.box > .icon > .info > .more a { font-family: "Robot",sans-serif !important; font-size: 12px; color: #222; line-height: 12px; text-transform: uppercase; text-decoration: none; }
+		.box > .icon:hover > .info > .more > a { color: #fff; padding: 6px 8px; background-color: #63B76C; }
+		.box .space { height: 30px; }
+
+		@media only screen and (max-width: 768px)
+		{
+			.contact-form
+			{
+				margin-top:25px;
+			}
+
+			.btn-send
+			{
+				width: 100%;
+				padding:10px;
+			}
+
+			.second-portion
+			{
+				margin-top:25px;
+			}
+		}
+	/* Conatct end */
+
+
+  // footer styllling starts here
+  .footer {
+    padding: 50px 0 20px 0;
+    background-color: #35404f;
+    color: #878c94;
+}
+.footer .title{color:#fff;font-size:25px;}
+
+
+.footer .social-icon{padding:0px;margin:0px;}
+.footer .social-icon a{
+   display: inline-block;
+    color: #fff;
+    font-size: 35px;
+    padding: 10px;
+  }
+    // Footer styling ends here
+
+
+    // Top Navigation bar
+    .top-bar{
+      background-color:black;min-height:40px;padding-top:5px;padding-bottom: 0px;
+    }
+    .top-bar .nav-text {
+        color: #00BCD4;
+        display: block;
+        margin-top: 5px;
+    }
+    .top-bar .social{color:#FFF;display:inline-block;padding:5px;text-decoration: none;}
+
+
+    .top-bar .tools li{
+      list-style-type: none;
+      display:inline-block;
+      padding-top: 7px;
+    }
+    .top-bar .tools li a {
+        // display: block;
+        text-decoration: none;
+        color: #fff;
+        padding-left: 15px;
+
+        padding-top: 7px;
+    }
+// Top navigation bar ends here
+
+// Parallax starts here
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.6;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("/parallax1.jpg");
+  min-height: 400px;
+}
+
+.bgimg-2 {
+  background-image: url("/parallax2.jpg");
+  min-height: 400px;
+
+}
+
+.bgimg-3 {
+  background-image: url("/parallax3.jpg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  // background-color: #111;
+  color: #fff;
+  padding: 2px;
+  font-size: 45px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  font-size: 55px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+#slider1{
+  background: url(/wallpaper1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+#slider2{
+  background: url(/wallpaper2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+#slider3{
+  background: url(/wallpaper3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+#myCarousel{
+  height: 720px;
+}
+// Parallax ends here
+.carousel-caption {
+    position: absolute;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+}
+// .background_depth{
+//   background-color: #111;
+// }
+
+@media screen and (min-width:768px){
+    .carousel-caption h3{font-size: 52px;}
+    .carousel-caption p{font-size: 32px;}
+    .carousel-caption{}
+}
+.heading_for_testimonials h3{
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+      color: black;
+}
+#map {
+ height: 320px;
+ width: 100%;
+
+}
+@media screen and (min-width: 768px){
+.carousel-caption {
+    margin-bottom: 300px;
+}
+}
+.mask{
+  background: rgba(70, 72, 82, 0.3);
+  width: 100%;
+  height: 100%;
+
+}
